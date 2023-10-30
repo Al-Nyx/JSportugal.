@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    </meta>
+    <title>Formulário </title>
+
+<body>
+    <h1 id="elementoID">oi
+    </h1>
+    <button onclick="alterarConteudo()">Alterar Conteúdo</button>
+    <button onclick="adicionarClasse()">Adicionar Classe</button>
+    <button onclick="removerClasse()">Remover Classe</button>
+    <button onclick="adicionarEvento()">Adicionar Evento</button>
+    <button onclick="redirecionar()">Redirecionar</button>
+    <button onclick="exibirAlerta()">Exibir Alerta</button>
+    <br>
+    <br>
+    <script src="main.js"></script>
+    <button onclick="mudarPlanoDeFundo()">Click Aqui</button>
+</body>
+<nav>
+    <ul>
+        <li><a href="inicio.html">Inicio</a>
+        <li><a href="entrada.html">Entradas</a>
+        <li><a href="prato_principal.html">Prato Principal</a></li>
+        <li><a href="sobremesas.html">Sobremesas</a></li>
+        <li><a href="formulario.html">formulario</a></li>
+</nav>
+
+</head>
+<style>
+    body {
+        background-color: #fff;
+        transition: background-color 0.10s;
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: transparent #dbac0f;
+        padding: 107px;
+        border-radius: 18px;
+        box-shadow: 10 10 1000px rgba(197, 56, 0, 0.1);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+        border: 3px solid #00000096;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        background-color: #55e25c;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <form id="meuFormulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <form>
+
+
+    </div>
+
+    <img src="portuPNG.png">
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
